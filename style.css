@@ -46,7 +46,7 @@ h1 {
 
     color: #6b7280;
 
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -62,7 +62,7 @@ h1 {
 .search-section input {
     flex: 1;
 
-    padding: 13px;
+    padding: 19px;
 
     border: 1px solid #d1d5db;
 
