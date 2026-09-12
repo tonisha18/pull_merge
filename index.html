@@ -1,0 +1,123 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Portal</h1>
+
+        <p class="subtitle">
+            Enter your Student ID to view your details
+        </p>
+
+        <!-- Search Section -->
+
+        <div class="search-section">
+
+            <input
+                type="number"
+                id="studentId"
+                placeholder="Enter Student ID"
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+
+        <!-- Message -->
+
+        <p id="message"></p>
+
+
+        <!-- Student Details -->
+
+        <div id="studentCard" class="student-card">
+
+            <h2>Student Details</h2>
+
+            <div class="detail">
+                <span>Student ID</span>
+                <span id="displayId">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Name</span>
+                <span id="name">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Roll Number</span>
+                <span id="roll">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Course</span>
+                <span id="course">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Department</span>
+                <span id="department">-</span>
+            </div>
+
+            <div class="detail">
+                <span>HOD</span>
+                <span id="hod">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Internship</span>
+                <span id="internship">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Location</span>
+                <span id="location">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Stipend</span>
+                <span id="stipend">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Result</span>
+                <span id="result">-</span>
+            </div>
+
+            <div class="detail">
+                <span>Exam Date</span>
+                <span id="examDate">-</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Supabase JavaScript Library -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Our JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
